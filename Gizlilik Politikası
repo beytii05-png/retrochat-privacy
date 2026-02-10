@@ -1,0 +1,134 @@
+# Gizlilik Politikası
+
+Bu gizlilik politikası, Linekolik Studio (bundan sonra "Hizmet Sağlayıcı" olarak anılacaktır) tarafından ücretsiz bir hizmet olarak sunulan ve mobil cihazlar için geliştirilmiş Retro Chat uygulaması (bundan sonra "Uygulama" olarak anılacaktır) için geçerlidir. Bu hizmet "OLDUĞU GİBİ" sunulmaktadır.
+
+## Bilgi Toplama ve Kullanımı
+
+Uygulamayı indirip kullandığınızda bazı bilgiler toplanabilir. Bu bilgiler şunları içerebilir:
+
+- Cihazınızın İnternet Protokol (IP) adresi
+- Uygulama içinde ziyaret ettiğiniz sayfalar, ziyaret tarih ve saati ile bu sayfalarda geçirilen süre
+- Uygulamada geçirilen toplam süre
+- Mobil cihazınızda kullandığınız işletim sistemi
+
+Uygulama, mobil cihazınızın kesin konum bilgilerini toplamaz.
+
+Hizmet Sağlayıcı, sağladığınız bilgileri zaman zaman sizinle iletişime geçmek, önemli bilgiler vermek, gerekli bildirimleri iletmek ve pazarlama amaçlı duyurular yapmak için kullanabilir.
+
+Uygulamayı kullanırken daha iyi bir deneyim sunabilmek amacıyla, Hizmet Sağlayıcı sizden bazı kişisel olarak tanımlanabilir bilgiler talep edebilir. Talep edilen bu bilgiler, bu gizlilik politikasında açıklandığı şekilde saklanacak ve kullanılacaktır.
+
+## Uygulama İzinleri ve Medya Erişimi
+
+Uygulamanın temel sohbet ve iletişim özelliklerini sunabilmek için aşağıdaki izinler kullanılmaktadır:
+
+### 📸 Fotoğraf ve Video Erişimi (READ_MEDIA_IMAGES, READ_MEDIA_VIDEO)
+
+**Kullanım Amaçları:**
+- **Profil Fotoğrafı Yönetimi:** Hesabınız için profil fotoğrafı seçmek ve güncellemek
+- **Grup Görselleri:** Grup sohbetleri için grup resimleri oluşturmak ve düzenlemek
+- **Sohbette Medya Paylaşımı:** Özel ve grup sohbetlerinde fotoğraf ve video paylaşmak
+- **Medya Görüntüleme:** Paylaşılan fotoğraf ve videoları sohbet geçmişinde görüntülemek
+- **RetroFM Radyo:** Radyo kanalları için kapak görselleri ve içerik medyası görüntülemek
+
+**Gizlilik ve Güvenlik:**
+- Bu izinler yalnızca **SİZİN SEÇTİĞİNİZ** fotoğraf ve videolara erişim sağlar
+- Galerinizdeki diğer içeriklere otomatik erişim SAĞLANMAZ
+- Paylaşmayı seçtiğiniz medya dosyaları Firebase Storage üzerinden şifrelenmiş şekilde saklanır
+- Paylaşılan içerikler yalnızca sohbet katılımcıları ile görülebilir
+- İzin vermek istemezseniz, Android sistem dosya seçici ile manuel tek seferlik erişim sağlayabilirsiniz
+
+**Android 13+ Uyumluluğu:** Uygulama, Android 13 ve üzeri cihazlarda modern READ_MEDIA_* izinlerini kullanır (eski READ_EXTERNAL_STORAGE kullanılmaz).
+
+### 📷 Kamera Erişimi (CAMERA)
+
+**Kullanım Amacı:** 
+- Doğrudan fotoğraf çekmek ve anlık olarak sohbetlerde paylaşmak
+- Profil fotoğrafı çekmek
+- Grup görsel içerikleri oluşturmak
+
+Kamera izni yalnızca SİZ fotoğraf çekmek istediğinizde aktif olur. Arka planda kamera kullanılmaz.
+
+### 🔔 Bildirim İzni (POST_NOTIFICATIONS)
+
+**Kullanım Amaçları:**
+- Yeni mesaj bildirimleri
+- Grup sohbet güncellemeleri
+- Sistem ve güvenlik bildirimleri
+- RetroFM radyo bildirimleri
+
+Bildirimleri cihaz ayarlarınızdan her zaman kapatabilirsiniz.
+
+### 🌐 İnternet Erişimi (INTERNET)
+
+**Kullanım Amacı:**
+- Firebase Realtime Database ile gerçek zamanlı mesaj senkronizasyonu
+- Firebase Cloud Storage ile medya dosyası yükleme/indirme
+- Firebase Authentication ile kullanıcı doğrulama
+- RetroFM radyo akışı
+
+**Önemli Not:** Bu izinler olmadan uygulamanın temel sohbet, medya paylaşım ve radyo özellikleri çalışmaz. İzinleri reddetmeniz durumunda, uygulamanın temel işlevlerini kullanamayabilirsiniz.
+
+## Üçüncü Taraf Erişimi
+
+Uygulamanın ve hizmetlerin geliştirilmesine yardımcı olmak amacıyla, yalnızca toplu ve anonimleştirilmiş veriler periyodik olarak harici hizmetlere iletilir. Hizmet Sağlayıcı, bilgilerinizi bu gizlilik politikasında açıklanan şekillerde üçüncü taraflarla paylaşabilir.
+
+Uygulama, verilerin işlenmesine ilişkin kendi gizlilik politikalarına sahip üçüncü taraf hizmetleri kullanmaktadır:
+
+- **Google Play Hizmetleri:** Kimlik doğrulama ve cihaz hizmetleri
+- **Google Analytics for Firebase:** Anonim kullanım istatistikleri ve performans izleme
+- **Firebase Realtime Database:** Mesaj senkronizasyonu
+- **Firebase Cloud Storage:** Medya dosyası depolama
+- **Firebase Authentication:** Kullanıcı hesap yönetimi
+- **Firebase Cloud Messaging:** Bildirim gönderimi
+
+**Önemli:** Fotoğraf ve video izinleri ile erişilen kişisel medya verileriniz, reklam amaçlı kullanılmaz, üçüncü taraflara satılmaz veya analiz amacıyla paylaşılmaz.
+
+Hizmet Sağlayıcı, Kullanıcı Tarafından Sağlanan ve Otomatik Olarak Toplanan bilgileri şu durumlarda açıklayabilir:
+
+- Yasa gereği, örneğin mahkeme kararı veya benzeri hukuki süreçlere uymak amacıyla
+- Haklarını korumak, sizin veya başkalarının güvenliğini sağlamak, dolandırıcılığı araştırmak veya resmi makam taleplerine yanıt vermek için gerekli olduğuna iyi niyetle inanıldığında
+- Kendi adına çalışan, bilgileri bağımsız olarak kullanmayan ve bu gizlilik politikasına uymayı kabul etmiş güvenilir hizmet sağlayıcılarıyla
+
+## Vazgeçme Hakları
+
+Uygulamayı kaldırarak bilgi toplanmasını tamamen durdurabilirsiniz. Bu işlemi mobil cihazınızda veya uygulama mağazası üzerinden sunulan standart kaldırma yöntemlerini kullanarak gerçekleştirebilirsiniz.
+
+## Veri Saklama Politikası
+
+Hizmet Sağlayıcı, kullanıcı tarafından sağlanan verileri Uygulama kullanıldığı sürece ve sonrasında makul bir süre boyunca saklar.
+
+Uygulama aracılığıyla sağladığınız verilerin silinmesini talep etmek isterseniz, beytlin88@gmail.com adresi üzerinden Hizmet Sağlayıcı ile iletişime geçebilirsiniz. Talebinize makul bir süre içinde yanıt verilecektir.
+
+**Medya Verileri:** Paylaştığınız fotoğraf ve videolar Firebase Storage'da saklanır ve hesabınızı sildiğinizde veya içeriği manuel olarak kaldırdığınızda silinir.
+
+## Çocukların Gizliliği
+
+Hizmet Sağlayıcı, 13 yaşın altındaki çocuklardan bilerek veri toplamaz veya onlara yönelik pazarlama yapmaz. 
+
+Uygulama, 13 yaşın altındaki kişilere yönelik değildir. Hizmet Sağlayıcı, 13 yaşın altındaki çocuklardan bilerek kişisel olarak tanımlanabilir bilgi toplamaz. Eğer 13 yaşın altındaki bir çocuğun kişisel bilgi sağladığı tespit edilirse, bu bilgiler derhal sunuculardan silinir.
+
+Eğer bir ebeveyn veya vasiyseniz ve çocuğunuzun kişisel bilgi sağladığını düşünüyorsanız, lütfen beytlin88@gmail.com adresi üzerinden Hizmet Sağlayıcı ile iletişime geçin.
+
+## Güvenlik
+
+Hizmet Sağlayıcı, bilgilerinizin gizliliğini korumaya önem verir. İşlenen ve saklanan bilgileri korumak için fiziksel, elektronik ve idari güvenlik önlemleri uygulanmaktadır.
+
+**Medya Güvenliği:** Paylaştığınız tüm fotoğraf ve videolar, Firebase Storage'da şifrelenmiş olarak saklanır ve sadece HTTPS üzerinden güvenli şekilde iletilir.
+
+## Değişiklikler
+
+Bu Gizlilik Politikası, herhangi bir nedenle zaman zaman güncellenebilir. Yapılan değişiklikler bu sayfada yayımlanacaktır. Uygulamayı kullanmaya devam etmeniz, yapılan değişiklikleri kabul ettiğiniz anlamına gelir. Bu nedenle Gizlilik Politikası'nı düzenli olarak kontrol etmeniz önerilir.
+
+**Son Güncelleme:** 10.02.2026 tarihi itibarıyla geçerlidir.
+
+## Onayınız
+
+Uygulamayı kullanarak, bu Gizlilik Politikası'nda belirtilen ve zamanla güncellenebilecek şartlar doğrultusunda bilgilerinizin işlenmesini kabul etmiş olursunuz.
+
+## İletişim
+
+Uygulamayı kullanırken gizlilikle ilgili sorularınız veya uygulama uygulamaları hakkında merak ettikleriniz varsa, Hizmet Sağlayıcı ile beytlin88@gmail.com e-posta adresi üzerinden iletişime geçebilirsiniz.
+
+---
+
+*Bu gizlilik politikası metni App Privacy Policy Generator temel alınarak, Google Play Developer Policy gereksinimlerine uygun şekilde düzenlenmiştir.*
