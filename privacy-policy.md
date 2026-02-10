@@ -1,5 +1,5 @@
 Gizlilik Politikası
-Bu gizlilik politikası, Linekolik Studio (bundan sonra “Hizmet Sağlayıcı” olarak anılacaktır) tarafından ücretsiz bir hizmet olarak sunulan ve mobil cihazlar için geliştirilmiş Retro Chat uygulaması (bundan sonra “Uygulama” olarak anılacaktır) için geçerlidir. Bu hizmet “OLDUĞU GİBİ” sunulmaktadır.
+Bu gizlilik politikası, Linekolik Studio (bundan sonra “Hizmet Sağlayıcı” olarak anılacaktır) tarafından ücretsiz bir hizmet olarak sunulan ve mobil cihazlar için geliştirilmiş Retro Chat uygulaması (bundan sonra “Uygulama” olarak anılacaktır) için geçerlidir. Bu hizmet “OLDUĞU GİBİ” sunulmakta
 
 Bilgi Toplama ve Kullanımı
 Uygulamayı indirip kullandığınızda bazı bilgiler toplanabilir. Bu bilgiler şunları içerebilir:
